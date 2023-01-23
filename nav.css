@@ -1,0 +1,47 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.buttonnav{
+
+width: 160px;
+height: 45px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: 15px;
+line-height: 27px;
+background: #B68C5A;
+border: 1px solid #B68C5A;;
+border-radius: 10px;
+color: #FFFFFF;
+
+}
+.buttonnav:hover{
+    opacity: 0.8;
+
+}
+.buttonnav:focus,
+.buttonnav:active,
+.buttonnav:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+nav ul li a{
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+
+color: #707070;
+
+}
