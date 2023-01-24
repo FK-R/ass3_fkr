@@ -1,0 +1,44 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla&family=EB+Garamond&family=Work+Sans&display=swap');
+
+
+
+.card-title{
+    font-family: 'EB Garamond', serif;
+/* font-family: 'Work Sans', sans-serif; */
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+letter-spacing: 5px;
+
+color: #FFFFFF;
+
+}
+.card-text{
+font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1.6px;
+}
+.btn-outline-success:hover{
+opacity: 0.8;
+background-color: #B68C5A;
+}
+
+.btn-outline-success{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    background: #B68C5A;
+    border:none;
+    color: #FFFFFF;
+
+}
+.ok{
+    width: 320px!important;
+}
+.card{
+    border: none;
+}
