@@ -1,7 +1,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+nav ul li a{
+    color: #707070!important;
 
+}
 .buttonnav{
 
 width: 160px;
@@ -45,3 +48,86 @@ line-height: 24px;
 color: #707070;
 
 }
+
+
+/* sec 3 */
+.section3 img {
+
+
+    width: 100px;
+
+}
+
+.section3 h5 {
+
+    font-family: 'EB Garamond', sans-serif !important;
+    color: #414040;
+    font-size: 24px;
+
+ 
+
+}
+
+.sec5 button{
+    font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 800;
+font-size: auto;
+
+text-align: center;
+
+/* Dark 02 */
+
+color: #414040;
+
+}
+
+.section3 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #707070;
+
+
+}
+
+/* accoredin carousal */
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("-.png");
+}
+
+.accordion-button.collapsed::after {
+    background-image: url("+.png");
+}
+
+
+
+.accordion-button,
+.accordion-body {
+    background-color: #F3F3F3 !important;
+    color: #707070 !important;
+    outline: none !important;
+    /* border-radius: 6px !important; */
+
+}
+
+
+
+.accordion-item {
+    border: none !important;
+
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    border: none !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.ques {
+
+    text-align: center;
+}
+
+

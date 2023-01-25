@@ -1,0 +1,68 @@
+@media only screen and (max-width: 800px) {
+  *{
+    margin: 0;
+  }
+
+
+    .title1{
+            font-size: 2vh;
+    } 
+    .sub1{
+        font-size: .9vh;
+    }
+
+    .wid{
+        width: 100%!important;
+        padding:0px 30px;
+    }
+    .foram{
+       width: 50%;
+       display: flex
+    }
+    /* .foram input,.foram button{
+        width: auto;
+    } */
+
+    .carousel-indicators{
+        display: none;
+    }
+
+    .auotp img{
+
+    width: 300px!important;
+    height:auto!important;
+    }
+   
+   
+  }
+  @media only screen and (max-width: 580px) {
+    .foram{
+      
+        display: grid;
+   
+     }
+.foram input{
+    width: auto!important;
+    padding:1px;
+}
+.foram button{
+    width: auto!important;
+    padding:1px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+   .foram{
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+    
+   }
+.foram input{
+  width: 150px!important;
+}
+.foram button{
+    width: 100px!important;
+    padding:1px;
+}
+}
