@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./section1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./footer.css">
+
     <title>Hello, world!</title>
 </head>
 
@@ -53,7 +54,32 @@
                     </li>
                 </ul>
 
-                <button class="btn-default my-2 my-sm-0 buttonnav" type="submit">Free Consultation</button>
+                <button type="button" class="btn-default my-2 my-sm-0 buttonnav" data-toggle="modal"
+                    data-target="#exampleModalCenter">
+                    Fre Consultation
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Hi this is me FKR
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -88,8 +114,109 @@
 
 
 
+    <style>
+        .section3 img {
+
+
+            width: 100px;
+
+        }
+
+        .section3 h5 {
+
+            font-family: 'EB Garamond', sans-serif !important;
+            color: #414040;
+            font-size: 24px;
+            ;
+
+        }
+
+        .section3 p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            color: #707070;
+
+
+        }
+    </style>
+
+
+
+    <section class="section3">
+
+        <div class="container border-bottom w-75 mt-5">
+
+            <div class="card text-center mt-5">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">Special title treatment</h5>
+                    <p class="card-text mb-5">With supporting text below as a natural lead-in to additional content.</p>
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                            <img class="card-img text-center mb-4" src="./business.png" alt="Card image cap">
+                            <h5 class="card-title  mb-4">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <img style="width:40px" src="./Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div style="background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+                border: 1px solid #E7E7E7;" class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                            <img class="card-img text-center mb-4" src="./tax.png" alt="Card image cap">
+                            <h5 class="card-title  mb-4">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <img style="width:40px" src="./Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                            <img class="card-img text-center mb-4" src="./child.png" alt="Card image cap">
+                            <h5 class="card-title  mb-4">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <img style="width:40px" src="./Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
     <section>
         <div class="container mt-5 w-75 ">
+            <div class="card text-center mt-5">
+                <div class="card-body">
+                    <h5 class="card-title text-dark mb-4">Special title treatment</h5>
+                    <p class="card-text mb-5 text-dark">With supporting text below as a natural lead-in to additional
+                        content.</p>
+
+                </div>
+            </div>
+
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -120,137 +247,274 @@
 
     </section>
 
+    <br><br><br><br>
+<div class="container">
+
+
+    <div id="carouselExampleCaptions"  class="carousel slide">
+        <div class="carousel-indicators">
+            <br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+
+           
+                
+            <img src="./slider-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+
+
+
+                <div class="d-flex justify-content-center mb-5">
+                    <img src="./j.jpg"
+                      class="rounded-circle shadow-1-strong" width="100" height="100" />
+                  </div>
+          
 
 
 
 
 
 
-    <section class="d-flex justify-content-between align-items-center w-75">
 
-        <style>
-            .accordion-button:not(.collapsed)::after {
-                background-image: url("-.png");
-            }
-
-            .accordion-button.collapsed::after {
-                background-image: url("+.png");
-            }
-
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+             
+              <p>Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+              <br>
+              <br>
+              <br>
+<br>
 
 
-            .accordion-button,
-            .accordion-body {
-                background-color: #F3F3F3 !important;
-                color: #707070 !important;
-                outline: none !important;
-                /* border-radius: 6px !important; */
+              <br>
+              <br>
+              
+              <br>
+              <br>
+              
+              <br>
+              <br>
+              
+                                                        
+            </div>
+          
+          </div>
+          <div class="carousel-item ">
+            <img src="./slider-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
 
-            }
+                
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./slider-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-            .accordion-button {}
 
-            .accordion-body {}
+    </div>
 
-            .accordion-item {
-                border: none !important;
+    <style>
+        .accordion-button:not(.collapsed)::after {
+            background-image: url("-.png");
+        }
 
-            }
+        .accordion-button.collapsed::after {
+            background-image: url("+.png");
+        }
 
-            .accordion-button:focus {
-                z-index: 3;
-                outline: 0;
-                border: none !important;
-                box-shadow: 0 0 0 0 !important;
-            }
-        </style>
 
+
+        .accordion-button,
+        .accordion-body {
+            background-color: #F3F3F3 !important;
+            color: #707070 !important;
+            outline: none !important;
+            /* border-radius: 6px !important; */
+
+        }
+
+
+
+        .accordion-item {
+            border: none !important;
+
+        }
+
+        .accordion-button:focus {
+            z-index: 3;
+            outline: 0;
+            border: none !important;
+            box-shadow: 0 0 0 0 !important;
+        }
+
+        .ques {
+
+            text-align: center;
+        }
+    </style>
+
+
+
+<br><br><br><br><br><br><br><br>
+    <section>
         <div class="container">
 
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed rounded-top p-4" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
-                            aria-controls="flush-collapseOne">
-                            Accordion Item #1
-                        </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body rounded-bottom">Placeholder content for this accordion, which is
-                            intended to
-                            demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
-                            body.</div>
+
+
+            <div class="container mt-5 w-100 ">
+                <div class="card text-center mt-5">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark mb-4">You can ask any question To Us</h5>
+                        <p class="card-text mb-5 text-dark">The name of our country is Bangladesh.</p>
+
                     </div>
                 </div>
 
-                <br>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed rounded-top p-4" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                            aria-controls="flush-collapseTwo">
-                            Accordion Item #2
-                        </button>
-                    </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body rounded-bottom">Placeholder content for this accordion, which is
-                            intended to
-                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
-                            body. Let's imagine this being filled with some actual content.</div>
-                    </div>
-                </div>
-                <br>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFour">
-                        <button class="accordion-button collapsed rounded-top p-4" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
-                            aria-controls="flush-collapseFour">
-                            Accordion Item #2
-                        </button>
-                    </h2>
-                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body rounded-bottom">Placeholder content for this accordion, which is
-                            intended to
-                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
-                            body. Let's imagine this being filled with some actual content.</div>
-                    </div>
-                </div>
-                <br>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed rounded-top p-4" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
-                            aria-controls="flush-collapseThree">
-                            Accordion Item #3
-                        </button>
-                    </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body rounded-bottom">Placeholder content for this accordion, which is
-                            intended to
-                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
-                            body. Nothing more exciting happening here in terms of content, but just filling up the
-                            space to make it look, at least at first glance, a bit more representative of how this would
-                            look in a real-world application.</div>
-                    </div>
-                </div>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed rounded-top p-4" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                       What is difference between CSS Grid and CSS Flexbox?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body rounded-bottom">
+                                        Flexbox was created for layout in one
+                                        dimension, either a row or a column, which is the fundamental difference between
+                                        CSS Grid Layout and CSS Flexbox Layout. Grid was made to be laid out in two
+                                        dimensions simultaneously in rows and columns.</div>
+                                
+                                </div>
+                            </div>
 
+                            <br>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed rounded-top p-4" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        What is purpose of media-query?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body rounded-bottom">The ability to create different layouts
+                                        depending on the size of the viewport is a key component of responsive web
+                                        design, but media queries can also be used to determine other aspects of the
+                                        environment in which your site is being viewed, such as whether the user is
+                                        using a touchscreen device instead of a mouse.</div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed rounded-top p-4" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                        aria-expanded="false" aria-controls="flush-collapseFour">
+                                  What is the CSS box model? How does it work?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body rounded-bottom">he content edge, padding edge, border
+                                        edge, and margin edge are the four parts (or areas) that make up each box and
+                                        define them.
+                                        The arrangement of HTML elements on the screen is specified by the CSS box
+                                        model. This method takes into account any properties that affect them as well as
+                                        options like margins, padding, and borders. You could imagine each item as its
+                                        own box.</div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed rounded-top p-4" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                        What is Semantic tag?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body rounded-bottom">HTML tags that define the meaning of
+                                        the content they contain are known as semantic tags. Semantic HTML tags
+                                        include, for instance, the header, article, and footer tags. They make it
+                                        very clear what purpose the content they contain serves. On the other hand,
+                                        typical examples of non-semantic HTML elements include tags like div and
+                                        span.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img style="width :450px" src="./faq.png" alt="">
+                    </div>
+                </div>
 
             </div>
+        </div>
+    </section>
 
 
+
+    <section class="section4 mt-5">
+
+        <div class="card mx-auto p-3 shadow text-dark" style="width: 30rem;">
+            <div class="card-body">
+                <div class="header text-center fw-bold">
+                    <h3 class="f6 mb-4">Get a Free Quote</h3>
+                </div>
+                <div>
+                    <div class="mb-3"><label class="form-label f4">Email</label><input
+                            type="email" class="form-control" placeholder="Enter Email"></div>
+                    <div class="mb-3"><label class="form-label f4">Message</label>
+                        <textarea
+                            type="text" class="form-control" id="exampleInputPassword1"
+                            placeholder="Write here..."></textarea></div>
+         
+                    <div class="text-center"><button type="submit"
+                            class="btn nav-back-login bg-dark text-light w-50 text-center">Send</button></div>
+                </div>
+            </div>
         </div>
 
 
 
-        <div> <img class="w-50" src="./faq.png" alt=""></div>
-
     </section>
-
 
 
 
